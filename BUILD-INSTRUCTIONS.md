@@ -39,6 +39,7 @@ This standalone bundle includes the runtime dependencies and static assets. It w
 - lamb and integration platform simulations
 - Orkest animated branching workflow
 - Micro PIM three-way diff and conflict-resolution simulation
+- Order Validator design-time Map grouping, JSON compilation, and client deployment simulation
 - Project detail dialogs, contact links, and responsive layouts
 
 No environment variables, API keys, or connected backend services are required for the portfolio. All project demonstrations run locally in the browser with illustrative data.

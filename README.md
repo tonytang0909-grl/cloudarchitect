@@ -1,6 +1,6 @@
 # Tony Tang — personal portfolio
 
-An experimental, responsive portfolio based on the content in `/Users/zhuang/Projects/cloudarchitect`. The original project is unchanged.
+A responsive experimental portfolio with five interactive engineering exhibits, informed by the supplied project specifications.
 
 ## Development
 
@@ -16,8 +16,8 @@ npm run lint
 npm run build
 ```
 
-Main implementation: `app/page.tsx`; visual design and responsive breakpoints: `app/globals.css`.
+The page is in app/page.tsx. Project content and simulations are in components/studio. Styles are in app/globals.css and app/studio.css. Freelance application copy is in FREELANCE-PROJECTS.md.
 
-Includes draggable playground pieces, reset and signal controls, interactive project simulations, keyboard-accessible project dialogs, email copying, and reduced-motion support. Simulations do not call production services. Professional details and project metrics come from the source portfolio and Tony’s project descriptions.
+Project demos use synthetic data and make no service calls. Delivered capabilities and future architecture are distinguished. Reduced motion freezes sequenced demos and enables manual stepping. FlexVal supports dragging a check across the Map boundary or using the accessible move button. Compiled output is a simplified ASL fragment.
 
-Order Validator demonstrates an AWS-based design-time workflow compiler: drag nodes between order scope and a Map area (or use keyboard-accessible move buttons), compile an illustrative JSON structure, then simulate deploying the same definition to configured sample clients. Editing the design invalidates its compiled preview. The sample checks and clients are illustrative; generated JSON is simplified for explanation and is not an AWS deployment artifact.
+Historical components outside components/studio are retained but no longer rendered.

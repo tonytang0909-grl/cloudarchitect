@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import './studio.css';
 export const metadata: Metadata = {
   title: 'Tony Tang — Connecting the disconnected',
   description: 'Integration developer and cloud architect. Explore Tony Tang’s playful world of serverless systems, developer tools, and commerce integrations.',

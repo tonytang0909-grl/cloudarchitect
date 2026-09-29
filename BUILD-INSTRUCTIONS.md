@@ -36,12 +36,11 @@ This standalone bundle includes the runtime dependencies and static assets. It w
 ## Included functionality
 
 - Interactive hero playground and motion controls
-- lamb and integration platform simulations
-- Orkest animated branching workflow
-- Micro PIM three-way diff and conflict-resolution simulation
-- Order Validator design-time Map grouping, JSON compilation, and client deployment simulation
-- Project detail dialogs, contact links, and responsive layouts
+- Five project exhibits: Kazilo, lamb, NexusMF, FlexVal and Notification Service
+- Tenant execution animation, selected-state debugger, supplier review, Map compilation and event lifecycle scenarios
+- Explicit delivered-versus-planned scope notes
+- Keyboard-accessible controls, project detail dialogs and responsive layouts
 
-No environment variables, API keys, or connected backend services are required for the portfolio. All project demonstrations run locally in the browser with illustrative data.
+No API keys or backend connections are required. Every demonstration uses synthetic data. Compiler output is an explanatory fragment, not a deployable AWS definition.
 
-Source archive includes application code, configuration, dependency lockfile, context notes, and preview images. Installed dependencies, Git history, and generated caches are excluded; `npm ci` restores dependencies.
+The source archive excludes private specs, extracted research, installed dependencies, Git history and caches. Run npm ci to restore dependencies.
